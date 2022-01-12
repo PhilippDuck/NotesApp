@@ -1,5 +1,6 @@
 package duck.philippmarcel.notes;
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
@@ -11,7 +12,9 @@ import java.util.ArrayList;
 
 public class Database {
 
-    private String url = "jdbc:sqlite:/Users/philipp-marcelduck/Documents/notes.db";
+    private String path = System.getProperty("user.home");
+    private final String seperator = File.separator;
+    private String url = "jdbc:sqlite:" + path + seperator + "notes.db";
 
     public Database() {
         createDatabase();
@@ -37,7 +40,8 @@ public class Database {
         String sql = "CREATE TABLE IF NOT EXISTS notes (\n"
                 + "	id integer PRIMARY KEY,\n"
                 + "	title text NOT NULL,\n"
-                + "	text text\n"
+                + "	text text,\n"
+                + " uuid text\n"
                 + ");";
 
         try (Connection conn = DriverManager.getConnection(url);
@@ -60,13 +64,14 @@ public class Database {
         return conn;
     }
 
-    public void insert(String title, String text) {
-        String sql = "INSERT INTO notes(title,text) VALUES(?,?)";
+    public void insert(String title, String text, String uuid) {
+        String sql = "INSERT INTO notes(title,text,uuid) VALUES(?,?,?)";
 
         try (Connection conn = this.connect();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, title);
             pstmt.setString(2, text);
+            pstmt.setString(3, uuid);
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -74,7 +79,7 @@ public class Database {
     }
 
     public ArrayList<Note> getAllNotes(){
-        String sql = "SELECT title, text FROM notes";
+        String sql = "SELECT title, text, uuid FROM notes";
         ArrayList<Note> notes = new ArrayList<Note>();
 
         try (Connection conn = this.connect();
@@ -83,7 +88,7 @@ public class Database {
 
             // loop through the result set
             while (rs.next()) {
-                Note note = new Note(rs.getString("title"), rs.getString("text"));
+                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"));
                 notes.add(note);
 
             }
@@ -93,14 +98,14 @@ public class Database {
         return notes;
     }
 
-    public void delete(String title) {
-        String sql = "DELETE FROM notes WHERE title = ?";
+    public void delete(String uuid) {
+        String sql = "DELETE FROM notes WHERE uuid = ?";
 
         try (Connection conn = this.connect();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
-
+            System.out.println("Delete: " + uuid);
             // set the corresponding param
-            pstmt.setString(1, title);
+            pstmt.setString(1, uuid);
             // execute the delete statement
             pstmt.executeUpdate();
 

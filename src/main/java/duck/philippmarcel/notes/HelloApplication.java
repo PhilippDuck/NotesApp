@@ -3,7 +3,6 @@
  * - delete notes with ID
  * - no error when last note is deleted
  * - show text of first note on start
- * - add windowtitle
  * - add icon
  * - creationdate?
  * -

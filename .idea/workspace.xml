@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde499dd-d1a3-4618-bf0c-56cc88020488" name="Changes" comment="init" />
+    <list default="true" id="bde499dd-d1a3-4618-bf0c-56cc88020488" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/Notes-1.0.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Notes-1.0.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/Notes-1.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Notes-1.0.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/image/lib/modules" beforeDir="false" afterPath="$PROJECT_DIR$/build/image/lib/modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/Notes-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/Notes-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes-1.0.dmg" beforeDir="false" afterPath="$PROJECT_DIR$/build/jpackage/Notes-1.0.dmg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes-1.0.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/jpackage/Notes-1.0.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/Resources/Notes.icns" beforeDir="false" afterPath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/Resources/Notes.icns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/modules" beforeDir="false" afterPath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Notes-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Notes-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/duck/philippmarcel/notes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/duck/philippmarcel/notes/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/duck/philippmarcel/notes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/duck/philippmarcel/notes/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,16 +105,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/duck/philippmarcel/notes" />
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Notes [jpackage]">
+  <component name="RunManager" selected="Gradle.Notes [jpackage] (2)">
     <configuration name="Notes [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -124,7 +161,30 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Notes [jpackage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Notes [jpackage] (1)" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jpackage" />
+            <option value="--icon" />
+            <option value="resources/duck/philippmarcel/notes/icons/note.png" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Notes [jpackage] (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,6 +196,28 @@
         <option name="taskNames">
           <list>
             <option value="jpackage" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Notes [jpackage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jpackage" />
+            <option value="--icon" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,10 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Notes [jpackage]" />
-        <item itemvalue="Gradle.Notes [run]" />
+        <item itemvalue="Gradle.Notes [jpackage] (2)" />
         <item itemvalue="Gradle.Notes [build]" />
+        <item itemvalue="Gradle.Notes [run]" />
         <item itemvalue="Gradle.Notes [clean]" />
+        <item itemvalue="Gradle.Notes [jpackage]" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +266,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641761487205</updated>
-      <workItem from="1641761489448" duration="5014000" />
+      <workItem from="1641761489448" duration="5781000" />
+      <workItem from="1641814626473" duration="13095000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641804223763</created>

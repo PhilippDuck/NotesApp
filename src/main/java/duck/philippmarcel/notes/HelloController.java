@@ -43,14 +43,14 @@ public class HelloController implements Initializable {
         }
         Note note = new Note(title, text);
         listView.getItems().add(note);
-        database.insert(title, text);
+        database.insert(title, text, note.getUuid());
     }
 
     @FXML
     protected void deleteNote() {
         Note note = listView.getSelectionModel().getSelectedItem();
         listView.getItems().remove(note);
-        database.delete(note.getTitle());
+        database.delete(note.getUuid());
     }
 
     @Override
