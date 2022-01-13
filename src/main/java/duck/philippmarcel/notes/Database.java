@@ -114,4 +114,23 @@ public class Database {
         }
     }
 
+    public void update(String uuid, String title, String text) {
+        String sql = "UPDATE notes SET title = ? , "
+                + "text = ? "
+                + "WHERE uuid = ?";
+
+        try (Connection conn = this.connect();
+             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+
+            // set the corresponding param
+            pstmt.setString(1, title);
+            pstmt.setString(2, text);
+            pstmt.setString(3, uuid);
+            // update
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
 }

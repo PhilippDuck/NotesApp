@@ -8,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 
+import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -41,9 +42,11 @@ public class HelloController implements Initializable {
         if (title.length() > 30) {
             title = title.substring(0, 30);
         }
-        Note note = new Note(title, text);
-        listView.getItems().add(note);
-        database.insert(title, text, note.getUuid());
+        if (title != "") {
+            Note note = new Note(title, text);
+            listView.getItems().add(note);
+            database.insert(title, text, note.getUuid());
+        }
     }
 
     @FXML
@@ -51,6 +54,35 @@ public class HelloController implements Initializable {
         Note note = listView.getSelectionModel().getSelectedItem();
         listView.getItems().remove(note);
         database.delete(note.getUuid());
+    }
+
+    @FXML
+    protected void updateNote() {
+        // Get text for title in listView (max. 20 chars)
+        try {
+            Note note = listView.getSelectionModel().getSelectedItem();
+            String text = textArea.getText();
+            String title;
+            if (text.contains("\n")) {
+                title = text.substring(0, text.indexOf("\n"));
+            } else {
+                title = text;
+            }
+            if (title.length() > 30) {
+                title = title.substring(0, 30);
+            }
+            if (title != "") {
+                note.setText(text);
+                note.setTitle(title);
+                int index = listView.getItems().indexOf(note);
+                listView.getItems().set(index, note);
+                database.update(note.getUuid(), note.getTitle(), note.getText());
+
+            }
+        } catch (Exception ex) {
+            System.out.println("No noteobject to update!");
+        }
+
     }
 
     @Override
@@ -63,7 +95,13 @@ public class HelloController implements Initializable {
         listView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Note>() {
             @Override
             public void changed(ObservableValue<? extends Note> arg0, Note arg1, Note arg2) {
-                textArea.setText(listView.getSelectionModel().getSelectedItem().getText());
+                try {
+                    textArea.setText(listView.getSelectionModel().getSelectedItem().getText());
+                } catch (Exception ex) {
+                    System.out.println("no Elements in listView!");
+                    textArea.setText("");
+                }
+
             }
 
         });

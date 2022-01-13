@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde499dd-d1a3-4618-bf0c-56cc88020488" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="bde499dd-d1a3-4618-bf0c-56cc88020488" name="Changes" comment="added Icons, notes have now uuid">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,20 +14,140 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/Note.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Notes-1.0.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Notes-1.0.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Notes-1.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Notes-1.0.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/image/lib/modules" beforeDir="false" afterPath="$PROJECT_DIR$/build/image/lib/modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/delegating/sqlite-jdbc-3.30.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/Notes-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/Notes-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/Notes.merged.module-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/Notes.merged.module-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/sqlite-jdbc-3.30.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/BusyHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/BusyHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$BackupCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$BackupCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$RestoreCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$RestoreCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$SQLExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$SQLExtension.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function$Aggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function$Aggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function$Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function$Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/JDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/JDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ProgressHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ProgressHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$DateClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$DateClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$DatePrecision.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$DatePrecision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$Encoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$HexKeyMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$HexKeyMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$JournalMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$JournalMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$LockingMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$LockingMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$Pragma.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$Pragma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$PragmaValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$PragmaValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$SynchronousMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$SynchronousMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$TempStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$TempStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$TransactionMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$TransactionMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConnectionConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConnectionConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteDataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteJDBCLoader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteJDBCLoader$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteJDBCLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteJDBCLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteOpenMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteOpenMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/Codes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/Codes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreDatabaseMetaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreDatabaseMetaData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CorePreparedStatement$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CorePreparedStatement$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CorePreparedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CorePreparedStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreResultSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreResultSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/DB$ProgressObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/DB$ProgressObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/NativeDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/NativeDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DateFormatUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DateFormatUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DateParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DateParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DatePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DatePrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/ExceptionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/ExceptionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateFormat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateFormat$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateFormat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$CaseInsensitiveTextStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$CaseInsensitiveTextStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$CopyQuotedStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$CopyQuotedStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$ISO8601TimeZoneStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$ISO8601TimeZoneStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$NumberStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$NumberStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$TimeZoneStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$TimeZoneStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$CharacterLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$CharacterLiteral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$Iso8601_Rule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$Iso8601_Rule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$NumberRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$NumberRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$PaddedNumberField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$PaddedNumberField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$Rule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$Rule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$StringLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$StringLiteral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneDisplayKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneDisplayKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneNameRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneNameRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneNumberRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneNumberRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwelveHourField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwelveHourField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwentyFourHourField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwentyFourHourField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitMonthField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitMonthField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitNumberField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitNumberField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitYearField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitYearField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$UnpaddedMonthField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$UnpaddedMonthField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$UnpaddedNumberField.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$UnpaddedNumberField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FormatCache$MultipartKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FormatCache$MultipartKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FormatCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FormatCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLiteConnectionPoolDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLiteConnectionPoolDataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnectionHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnectionHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$ImportedKeyFinder$ForeignKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$ImportedKeyFinder$ForeignKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$ImportedKeyFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$ImportedKeyFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$PrimaryKeyFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$PrimaryKeyFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3PreparedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3PreparedStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3ResultSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3ResultSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Savepoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Savepoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Statement$BackupObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Statement$BackupObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Statement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4DatabaseMetaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4DatabaseMetaData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4PooledConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4PooledConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4PreparedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4PreparedStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4ResultSet$SqliteClob.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4ResultSet$SqliteClob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4ResultSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4ResultSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4Statement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/FreeBSD/x86_64/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/FreeBSD/x86_64/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/aarch64/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/aarch64/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/android-arm/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/android-arm/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/arm/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/arm/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/armv6/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/armv6/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/armv7/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/armv7/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/ppc64/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/ppc64/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/x86/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/x86/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/x86_64/libsqlitejdbc.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/x86_64/libsqlitejdbc.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Mac/x86_64/libsqlitejdbc.jnilib" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Mac/x86_64/libsqlitejdbc.jnilib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Windows/x86/sqlitejdbc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Windows/x86/sqlitejdbc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Windows/x86_64/sqlitejdbc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Windows/x86_64/sqlitejdbc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/OSInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/OSInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/ResourceFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/ResourceFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/sqlite-jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/mergedjars/sqlite-jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/nonmodjars/sqlite-jdbc-3.30.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/tmpjars/sqlite.jdbc/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/tmpmerged/Notes.merged.module-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/tmpmerged/Notes.merged.module-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jlinkbase/tmpmodinfo/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/jlinkbase/tmpmodinfo/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/jpackage/Notes-1.0.dmg" beforeDir="false" afterPath="$PROJECT_DIR$/build/jpackage/Notes-1.0.dmg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/jpackage/Notes-1.0.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/jpackage/Notes-1.0.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/Resources/Notes.icns" beforeDir="false" afterPath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/Resources/Notes.icns" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/modules" beforeDir="false" afterPath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/modules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Notes-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Notes-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/duck/philippmarcel/notes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/duck/philippmarcel/notes/hello-view.fxml" afterDir="false" />
@@ -35,7 +155,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/Note.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/duck/philippmarcel/notes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/duck/philippmarcel/notes/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +214,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ab344a25-3178-4015-900d-38af03cb60d3" />
+        <option name="url" value="https://github.com/PhilippDuck/NotesApp.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -108,6 +235,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
@@ -267,7 +395,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641761487205</updated>
       <workItem from="1641761489448" duration="5781000" />
-      <workItem from="1641814626473" duration="13095000" />
+      <workItem from="1641814626473" duration="13670000" />
+      <workItem from="1642078505740" duration="5977000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641804223763</created>
@@ -276,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641804223765</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added Icons, notes have now uuid">
+      <created>1642001024366</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642001024366</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +431,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="added Icons, notes have now uuid" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Icons, notes have now uuid" />
   </component>
 </project>
