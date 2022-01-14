@@ -4,387 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde499dd-d1a3-4618-bf0c-56cc88020488" name="Changes" comment=".gitignore update">
-      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/duck/philippmarcel/notes/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="bde499dd-d1a3-4618-bf0c-56cc88020488" name="Changes" comment="icons">
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/duck/philippmarcel/notes/HelloController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Notes-1.0.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Notes-1.0.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/Notes-1.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/Notes-1.0.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/bin/Notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/bin/Notes.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/bin/java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/bin/jrunscript" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/bin/keytool" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/net.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/security/java.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/security/java.security" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/security/policy/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/security/policy/limited/default_US_export.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/security/policy/limited/default_local.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/security/policy/limited/exempt_local.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/security/policy/unlimited/default_US_export.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/security/policy/unlimited/default_local.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/conf/sound.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/aes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/asm.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/c-libutl.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/cldr.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/icu.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/public_suffix.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.base/unicode.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.datatransfer/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.datatransfer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/colorimaging.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/freetype.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/giflib.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/harfbuzz.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/jpeg.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/lcms.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/libpng.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/mesa3d.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.desktop/xwd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.logging/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.logging/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.logging/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.prefs/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.prefs/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.prefs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.scripting/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.scripting/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.scripting/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.sql/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.sql/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.sql/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.transaction.xa/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.transaction.xa/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.xml/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.xml/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.xml/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.xml/bcel.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.xml/dom.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.xml/jcup.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.xml/xalan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/java.xml/xerces.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/jdk.unsupported/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/legal/jdk.unsupported/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/classlist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/fontconfig.bfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/fontconfig.properties.src" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/jrt-fs.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/jspawnhelper" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/jvm.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libawt.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libawt_lwawt.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libfontmanager.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libfreetype.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libjava.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libjavajpeg.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libjawt.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libjimage.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libjli.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libjsig.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libjsound.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/liblcms.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libmlib_image.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libnet.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libnio.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libosx.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libosxapp.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libosxsecurity.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libosxui.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libprefs.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libsplashscreen.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libverify.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/libzip.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/modules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/psfont.properties.ja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/psfontj2d.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/security/blocked.certs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/security/cacerts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/security/default.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/security/public_suffix_list.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/server/libjsig.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/server/libjvm.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/shaders.metallib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/lib/tzdb.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/image/release" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/Notes-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/Notes.merged.module-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/javafx-base-17.0.1-mac.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/javafx-controls-17.0.1-mac.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/javafx-fxml-17.0.1-mac.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/jlinkjars/javafx-graphics-17.0.1-mac.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/LICENSE.zentus" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/VERSION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/maven/org.xerial/sqlite-jdbc/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/META-INF/services/java.sql.Driver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/BusyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$BackupCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$RestoreCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand$SQLExtension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ExtendedCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function$Aggregate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function$Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/Function.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/JDBC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/ProgressHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$DateClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$DatePrecision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$Encoding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$HexKeyMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$JournalMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$LockingMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$Pragma.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$PragmaValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$SynchronousMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$TempStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig$TransactionMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteConnectionConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteJDBCLoader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteJDBCLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/SQLiteOpenMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/Codes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreDatabaseMetaData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CorePreparedStatement$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CorePreparedStatement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreResultSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/CoreStatement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/DB$ProgressObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/core/NativeDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DateFormatUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DateParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/DatePrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/ExceptionUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateFormat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$CaseInsensitiveTextStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$CopyQuotedStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$ISO8601TimeZoneStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$NumberStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$Strategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser$TimeZoneStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDateParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$CharacterLiteral.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$Iso8601_Rule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$NumberRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$PaddedNumberField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$Rule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$StringLiteral.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneDisplayKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneNameRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TimeZoneNumberRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwelveHourField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwentyFourHourField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitMonthField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitNumberField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$TwoDigitYearField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$UnpaddedMonthField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter$UnpaddedNumberField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FastDatePrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FormatCache$MultipartKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/date/FormatCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLiteConnectionPoolDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/javax/SQLitePooledConnectionHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Connection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$ImportedKeyFinder$ForeignKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$ImportedKeyFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData$PrimaryKeyFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3DatabaseMetaData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3PreparedStatement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3ResultSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Savepoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Statement$BackupObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc3/JDBC3Statement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4Connection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4DatabaseMetaData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4PooledConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4PreparedStatement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4ResultSet$SqliteClob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4ResultSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/jdbc4/JDBC4Statement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/FreeBSD/x86_64/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/aarch64/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/android-arm/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/arm/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/armv6/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/armv7/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/ppc64/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/x86/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Linux/x86_64/libsqlitejdbc.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Mac/x86_64/libsqlitejdbc.jnilib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Windows/x86/sqlitejdbc.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/native/Windows/x86_64/sqlitejdbc.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/OSInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/ResourceFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/org/sqlite/util/StringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/mergedjars/sqlite-jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/tmpmerged/Notes.merged.module-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/tmpmodinfo/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jlinkbase/tmpmodinfo/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes-1.0.dmg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes-1.0.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/MacOS/Notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/PkgInfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/Resources/Notes.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/app/.jpackage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/app/Notes.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/bin/Notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/bin/Notes.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/bin/java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/bin/jrunscript" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/bin/keytool" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/net.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/security/java.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/security/java.security" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/security/policy/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/security/policy/limited/default_US_export.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/security/policy/limited/default_local.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/security/policy/limited/exempt_local.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/security/policy/unlimited/default_US_export.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/security/policy/unlimited/default_local.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/conf/sound.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/aes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/asm.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/c-libutl.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/cldr.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/icu.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/public_suffix.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.base/unicode.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.datatransfer/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.datatransfer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/colorimaging.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/freetype.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/giflib.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/harfbuzz.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/jpeg.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/lcms.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/libpng.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/mesa3d.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.desktop/xwd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.logging/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.logging/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.logging/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.prefs/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.prefs/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.prefs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.scripting/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.scripting/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.scripting/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.sql/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.sql/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.sql/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.transaction.xa/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.transaction.xa/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.xml/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.xml/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.xml/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.xml/bcel.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.xml/dom.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.xml/jcup.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.xml/xalan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/java.xml/xerces.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/jdk.unsupported/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/legal/jdk.unsupported/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/classlist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/fontconfig.bfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/fontconfig.properties.src" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/jrt-fs.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/jspawnhelper" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/jvm.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libawt.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libawt_lwawt.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libfontmanager.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libfreetype.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libjava.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libjavajpeg.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libjawt.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libjimage.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libjli.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libjsig.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libjsound.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/liblcms.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libmlib_image.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libnet.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libnio.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libosx.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libosxapp.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libosxsecurity.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libosxui.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libprefs.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libsplashscreen.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libverify.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/libzip.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/modules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/psfont.properties.ja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/psfontj2d.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/security/blocked.certs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/security/cacerts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/security/default.policy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/security/public_suffix_list.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/server/libjsig.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/server/libjvm.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/shaders.metallib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/lib/tzdb.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Home/release" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jpackage/Notes.app/Contents/runtime/Contents/MacOS/libjli.dylib" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/Notes-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Notes-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/duck/philippmarcel/notes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/duck/philippmarcel/notes/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/sqlite-jdbc-3.30.1.jar_8c455f02fd402a3daad05ea6aaabcfc8/META-INF/services/java.sql.Driver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/duck/philippmarcel/notes/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/duck/philippmarcel/notes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/duck/philippmarcel/notes/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -490,7 +122,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Notes [run]">
+  <component name="RunManager" selected="Gradle.Notes [jpackage] (2)">
     <configuration name="Notes [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -621,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Notes [run]" />
+        <item itemvalue="Gradle.Notes [jpackage] (2)" />
         <item itemvalue="Gradle.Notes [build]" />
         <item itemvalue="Gradle.Notes [clean]" />
+        <item itemvalue="Gradle.Notes [run]" />
         <item itemvalue="Gradle.Notes [createDelegatingModules]" />
-        <item itemvalue="Gradle.Notes [jpackage] (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +272,7 @@
       <workItem from="1641761489448" duration="5781000" />
       <workItem from="1641814626473" duration="13670000" />
       <workItem from="1642078505740" duration="6687000" />
-      <workItem from="1642168310413" duration="13394000" />
+      <workItem from="1642168310413" duration="14514000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1641804223763</created>
@@ -670,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642111873021</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="little changes and css">
+      <created>1642192716676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642192716677</updated>
+    </task>
+    <task id="LOCAL-00006" summary="icons">
+      <created>1642192816318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642192816318</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,6 +338,8 @@
     <MESSAGE value="added Icons, notes have now uuid" />
     <MESSAGE value="new UI and bugfixes,&#10;&#10;notes now editable" />
     <MESSAGE value=".gitignore update" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore update" />
+    <MESSAGE value="little changes and css" />
+    <MESSAGE value="icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="icons" />
   </component>
 </project>
