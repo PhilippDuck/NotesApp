@@ -10,6 +10,7 @@ simple notes-application programmed with JavaFX.
 ### 🚀 TODO:
 - show creationdate in listview
 - maybe add tags?
+- adding about section
 
 ### 💡 What I learned:
 - JavaFX
