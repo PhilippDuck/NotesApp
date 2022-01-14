@@ -7,8 +7,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
-
-import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -47,6 +45,8 @@ public class HelloController implements Initializable {
             listView.getItems().add(note);
             database.insert(title, text, note.getUuid());
         }
+        // Select the last/new note in listView
+        listView.getSelectionModel().select(listView.getItems().size()-1);
     }
 
     @FXML
