@@ -13,6 +13,7 @@ package duck.philippmarcel.notes;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import java.io.IOException;
 
@@ -23,6 +24,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         scene.getStylesheets().add(getClass().getResource("stylesheet.css").toString());
         stage.setTitle("Notes");
+        stage.getIcons().add(new Image(getClass().getResource("icons/note.png").toString()));
         stage.setWidth(900);
         stage.setHeight(700);
         stage.setScene(scene);
