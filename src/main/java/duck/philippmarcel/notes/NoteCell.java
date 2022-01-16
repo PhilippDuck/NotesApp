@@ -2,18 +2,20 @@ package duck.philippmarcel.notes;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.VBox;
-
 import java.io.IOException;
 
+/**
+ * Class of a custom ListCell
+ */
 public class NoteCell extends ListCell<Note> {
     @FXML
     private Label titleLabel;
+
+    @FXML
+    private Label dateLabel;
 
     @FXML
     private GridPane pane;
@@ -43,6 +45,7 @@ public class NoteCell extends ListCell<Note> {
         }
         else {
             titleLabel.setText(note.getTitle());
+            dateLabel.setText(note.getCreationDate());
             setText(null);
             setGraphic(pane);
         }

@@ -5,13 +5,12 @@ import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import javafx.util.Callback;
 
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable {
+public class Controller implements Initializable {
     @FXML
     private Button addButton;
 
@@ -90,9 +89,9 @@ public class HelloController implements Initializable {
 
         database = new Database();
         notesList = database.getAllNotes();
+
         listView.getItems().addAll(notesList);
         listView.setCellFactory(new NoteCellFactory());
-
 
         listView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Note>() {
             @Override

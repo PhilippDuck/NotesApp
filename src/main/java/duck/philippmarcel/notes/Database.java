@@ -10,6 +10,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+
+/**
+ * Database class. Creates a new database and table in users directory.
+ */
 public class Database {
 
     private String path = System.getProperty("user.home");
@@ -21,9 +25,11 @@ public class Database {
         createTable();
     }
 
-
+    /**
+     * If no database exists, this function creates one.
+     */
     public void createDatabase() {
-        try (Connection conn = DriverManager.getConnection(url)) {
+        try (Connection conn = this.connect()) {
             if (conn != null) {
                 DatabaseMetaData meta = conn.getMetaData();
                 System.out.println("The driver name is " + meta.getDriverName());
@@ -35,16 +41,20 @@ public class Database {
         }
     }
 
+    /**
+     * This Function creates a new table in database.
+     */
     public void createTable() {
         // SQL statement for creating a new table
         String sql = "CREATE TABLE IF NOT EXISTS notes (\n"
                 + "	id integer PRIMARY KEY,\n"
                 + "	title text NOT NULL,\n"
                 + "	text text,\n"
-                + " uuid text \n"
+                + " uuid text,\n"
+                + " creationDate text \n"
                 + ");";
 
-        try (Connection conn = DriverManager.getConnection(url);
+        try (Connection conn = this.connect();
              Statement stmt = conn.createStatement()) {
             // create a new table
             stmt.execute(sql);
@@ -53,6 +63,10 @@ public class Database {
         }
     }
 
+    /**
+     * Trys to connect to a database
+     * @return returns a connection
+     */
     private Connection connect() {
         // SQLite connection string
         Connection conn = null;
@@ -64,22 +78,34 @@ public class Database {
         return conn;
     }
 
+    /**
+     * Sends a new entry to database.
+     * @param title
+     * @param text
+     * @param uuid
+     * @param creationDate
+     */
     public void insert(String title, String text, String uuid, String creationDate) {
-        String sql = "INSERT INTO notes(title,text,uuid) VALUES(?,?,?)";
+        String sql = "INSERT INTO notes(title,text,uuid, creationDate) VALUES(?,?,?,?)";
 
         try (Connection conn = this.connect();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, title);
             pstmt.setString(2, text);
             pstmt.setString(3, uuid);
+            pstmt.setString(4, creationDate);
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
     }
 
+    /**
+     * Function get all entry's from database table
+     * @return returns an Arraylist with all notes
+     */
     public ArrayList<Note> getAllNotes(){
-        String sql = "SELECT title, text, uuid FROM notes";
+        String sql = "SELECT title, text, uuid, creationDate FROM notes";
         ArrayList<Note> notes = new ArrayList<Note>();
 
         try (Connection conn = this.connect();
@@ -88,7 +114,7 @@ public class Database {
 
             // loop through the result set
             while (rs.next()) {
-                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"));
+                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"), rs.getString("creationDate"));
                 notes.add(note);
 
             }
@@ -98,6 +124,10 @@ public class Database {
         return notes;
     }
 
+    /**
+     * Deletes an entry with specific uuid
+     * @param uuid
+     */
     public void delete(String uuid) {
         String sql = "DELETE FROM notes WHERE uuid = ?";
 
@@ -114,6 +144,12 @@ public class Database {
         }
     }
 
+    /**
+     * Updates an existing entry
+     * @param uuid
+     * @param title
+     * @param text
+     */
     public void update(String uuid, String title, String text) {
         String sql = "UPDATE notes SET title = ? , "
                 + "text = ? "
