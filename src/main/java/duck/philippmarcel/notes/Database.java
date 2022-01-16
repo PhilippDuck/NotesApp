@@ -10,6 +10,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+
+/**
+ * Database class. Creates a new database and table in users directory.
+ */
 public class Database {
 
     private String path = System.getProperty("user.home");
@@ -21,9 +25,11 @@ public class Database {
         createTable();
     }
 
-
+    /**
+     * If no database exists, this function creates one.
+     */
     public void createDatabase() {
-        try (Connection conn = DriverManager.getConnection(url)) {
+        try (Connection conn = this.connect()) {
             if (conn != null) {
                 DatabaseMetaData meta = conn.getMetaData();
                 System.out.println("The driver name is " + meta.getDriverName());
@@ -35,6 +41,9 @@ public class Database {
         }
     }
 
+    /**
+     * This Function creates a new table in database.
+     */
     public void createTable() {
         // SQL statement for creating a new table
         String sql = "CREATE TABLE IF NOT EXISTS notes (\n"
@@ -45,7 +54,7 @@ public class Database {
                 + " creationDate text \n"
                 + ");";
 
-        try (Connection conn = DriverManager.getConnection(url);
+        try (Connection conn = this.connect();
              Statement stmt = conn.createStatement()) {
             // create a new table
             stmt.execute(sql);
@@ -54,6 +63,10 @@ public class Database {
         }
     }
 
+    /**
+     * Trys to connect to a database
+     * @return returns a connection
+     */
     private Connection connect() {
         // SQLite connection string
         Connection conn = null;
@@ -65,6 +78,13 @@ public class Database {
         return conn;
     }
 
+    /**
+     * Sends a new entry to database.
+     * @param title
+     * @param text
+     * @param uuid
+     * @param creationDate
+     */
     public void insert(String title, String text, String uuid, String creationDate) {
         String sql = "INSERT INTO notes(title,text,uuid, creationDate) VALUES(?,?,?,?)";
 
@@ -80,6 +100,10 @@ public class Database {
         }
     }
 
+    /**
+     * Function get all entry's from database table
+     * @return returns an Arraylist with all notes
+     */
     public ArrayList<Note> getAllNotes(){
         String sql = "SELECT title, text, uuid, creationDate FROM notes";
         ArrayList<Note> notes = new ArrayList<Note>();
@@ -100,6 +124,10 @@ public class Database {
         return notes;
     }
 
+    /**
+     * Deletes an entry with specific uuid
+     * @param uuid
+     */
     public void delete(String uuid) {
         String sql = "DELETE FROM notes WHERE uuid = ?";
 
@@ -116,6 +144,12 @@ public class Database {
         }
     }
 
+    /**
+     * Updates an existing entry
+     * @param uuid
+     * @param title
+     * @param text
+     */
     public void update(String uuid, String title, String text) {
         String sql = "UPDATE notes SET title = ? , "
                 + "text = ? "

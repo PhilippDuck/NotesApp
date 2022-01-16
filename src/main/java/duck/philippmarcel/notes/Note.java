@@ -4,11 +4,14 @@ import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 import java.util.UUID;
 
+/**
+ * Class for a Note
+ */
 public class Note {
-    private String title;
-    private String text;
-    private String uuid;
-    private String creationDate = "noDate";
+    private String title;                       // Title of Note
+    private String text;                        // Text content of the note
+    private String uuid;                        // Unique ID of note to identify
+    private String creationDate = "noDate";     // Date of first creation
 
     public Note(String title, String text) {
         this.text = text;
@@ -30,8 +33,6 @@ public class Note {
         this.uuid = uuid;
         this.creationDate = creationDate;
     }
-
-
 
     @Override
     public String toString() {
@@ -62,6 +63,10 @@ public class Note {
         return this.creationDate;
     }
 
+    /**
+     * Function that takes a timestamp and format it
+     * @return returns the formatted timestamp as a String
+     */
     public String setCreationDate() {
         GregorianCalendar calendar = new GregorianCalendar();
         SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy - HH:mm");

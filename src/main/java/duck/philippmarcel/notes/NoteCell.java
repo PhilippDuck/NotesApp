@@ -5,10 +5,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
 import javafx.scene.layout.GridPane;
-
-
 import java.io.IOException;
 
+/**
+ * Class of a custom ListCell
+ */
 public class NoteCell extends ListCell<Note> {
     @FXML
     private Label titleLabel;
