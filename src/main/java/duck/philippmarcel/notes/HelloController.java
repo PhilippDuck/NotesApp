@@ -90,9 +90,9 @@ public class HelloController implements Initializable {
 
         database = new Database();
         notesList = database.getAllNotes();
+
         listView.getItems().addAll(notesList);
         listView.setCellFactory(new NoteCellFactory());
-
 
         listView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Note>() {
             @Override

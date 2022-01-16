@@ -1,7 +1,6 @@
 package duck.philippmarcel.notes;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.UUID;
 
@@ -9,23 +8,30 @@ public class Note {
     private String title;
     private String text;
     private String uuid;
-    private String creationDate;
+    private String creationDate = "noDate";
 
     public Note(String title, String text) {
         this.text = text;
         this.title = title;
         this.uuid = UUID.randomUUID().toString();
-        GregorianCalendar calendar = new GregorianCalendar();
-        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy - HH:mm");
-        this.creationDate = format.format(calendar.getTime());
-        System.out.println(creationDate);
+        this.creationDate = setCreationDate();
     }
 
     public Note(String title, String text, String uuid) {
         this.text = text;
         this.title = title;
         this.uuid = uuid;
+        this.creationDate = setCreationDate();
     }
+
+    public Note(String title, String text, String uuid, String creationDate) {
+        this.text = text;
+        this.title = title;
+        this.uuid = uuid;
+        this.creationDate = creationDate;
+    }
+
+
 
     @Override
     public String toString() {
@@ -54,5 +60,11 @@ public class Note {
 
     public String getCreationDate() {
         return this.creationDate;
+    }
+
+    public String setCreationDate() {
+        GregorianCalendar calendar = new GregorianCalendar();
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy - HH:mm");
+        return format.format(calendar.getTime());
     }
 }

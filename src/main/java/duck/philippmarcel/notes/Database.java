@@ -41,7 +41,8 @@ public class Database {
                 + "	id integer PRIMARY KEY,\n"
                 + "	title text NOT NULL,\n"
                 + "	text text,\n"
-                + " uuid text \n"
+                + " uuid text,\n"
+                + " creationDate text \n"
                 + ");";
 
         try (Connection conn = DriverManager.getConnection(url);
@@ -65,13 +66,14 @@ public class Database {
     }
 
     public void insert(String title, String text, String uuid, String creationDate) {
-        String sql = "INSERT INTO notes(title,text,uuid) VALUES(?,?,?)";
+        String sql = "INSERT INTO notes(title,text,uuid, creationDate) VALUES(?,?,?,?)";
 
         try (Connection conn = this.connect();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, title);
             pstmt.setString(2, text);
             pstmt.setString(3, uuid);
+            pstmt.setString(4, creationDate);
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -79,7 +81,7 @@ public class Database {
     }
 
     public ArrayList<Note> getAllNotes(){
-        String sql = "SELECT title, text, uuid FROM notes";
+        String sql = "SELECT title, text, uuid, creationDate FROM notes";
         ArrayList<Note> notes = new ArrayList<Note>();
 
         try (Connection conn = this.connect();
@@ -88,7 +90,7 @@ public class Database {
 
             // loop through the result set
             while (rs.next()) {
-                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"));
+                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"), rs.getString("creationDate"));
                 notes.add(note);
 
             }
