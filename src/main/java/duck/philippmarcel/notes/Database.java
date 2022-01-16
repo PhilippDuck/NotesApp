@@ -88,7 +88,7 @@ public class Database {
 
             // loop through the result set
             while (rs.next()) {
-                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"), rs.getString("creationDate"));
+                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"));
                 notes.add(note);
 
             }

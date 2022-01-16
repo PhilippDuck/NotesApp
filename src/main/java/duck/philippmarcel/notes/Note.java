@@ -21,11 +21,10 @@ public class Note {
         System.out.println(creationDate);
     }
 
-    public Note(String title, String text, String uuid, String creationDate) {
+    public Note(String title, String text, String uuid) {
         this.text = text;
         this.title = title;
         this.uuid = uuid;
-        this.creationDate = creationDate;
     }
 
     @Override
