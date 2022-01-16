@@ -5,7 +5,8 @@ simple notes-application programmed with JavaFX.
 
 ### Screenshot:
 
-![grafik](https://user-images.githubusercontent.com/40525330/149590933-fe796822-7e67-43ba-b578-fa9f6f498851.png)
+<img width="644" alt="Bildschirmfoto 2022-01-16 um 15 35 35" src="https://user-images.githubusercontent.com/40525330/149664469-376a7e0f-1471-4010-836f-bc2ac979c3e2.png">
+
 
 ### 🚀 TODO:
 - [x] show creationdate in listview
