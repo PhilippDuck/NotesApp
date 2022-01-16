@@ -4,9 +4,9 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
+import javafx.util.Callback;
+
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -43,7 +43,7 @@ public class HelloController implements Initializable {
         if (title != "") {
             Note note = new Note(title, text);
             listView.getItems().add(note);
-            database.insert(title, text, note.getUuid());
+            database.insert(title, text, note.getUuid(), note.getCreationDate());
         }
         // Select the last/new note in listView
         listView.getSelectionModel().select(listView.getItems().size()-1);
@@ -91,6 +91,8 @@ public class HelloController implements Initializable {
         database = new Database();
         notesList = database.getAllNotes();
         listView.getItems().addAll(notesList);
+        listView.setCellFactory(new NoteCellFactory());
+
 
         listView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Note>() {
             @Override
@@ -108,3 +110,4 @@ public class HelloController implements Initializable {
 
     }
 }
+

@@ -41,7 +41,7 @@ public class Database {
                 + "	id integer PRIMARY KEY,\n"
                 + "	title text NOT NULL,\n"
                 + "	text text,\n"
-                + " uuid text\n"
+                + " uuid text \n"
                 + ");";
 
         try (Connection conn = DriverManager.getConnection(url);
@@ -64,7 +64,7 @@ public class Database {
         return conn;
     }
 
-    public void insert(String title, String text, String uuid) {
+    public void insert(String title, String text, String uuid, String creationDate) {
         String sql = "INSERT INTO notes(title,text,uuid) VALUES(?,?,?)";
 
         try (Connection conn = this.connect();
@@ -88,7 +88,7 @@ public class Database {
 
             // loop through the result set
             while (rs.next()) {
-                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"));
+                Note note = new Note(rs.getString("title"), rs.getString("text"), rs.getString("uuid"), rs.getString("creationDate"));
                 notes.add(note);
 
             }
