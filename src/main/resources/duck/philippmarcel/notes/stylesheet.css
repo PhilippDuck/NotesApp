@@ -41,15 +41,6 @@
     -fx-background-color: #474747;
     -fx-text-fill: white;
 }
-.list-cell:selected {
-    -fx-text-fill: white;
-}
-.list-cell:cell-selection {
-    -fx-text-fill: white;
-}
-.list-cell:hover {
-    -fx-text-fill: white;
-}
 
 .list-cell {
     -fx-background-radius: 5px;
